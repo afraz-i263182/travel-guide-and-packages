@@ -1,0 +1,64 @@
+/*Name Afraz Hassan
+Roll No. 26I-3182
+Section: BSE-A*/
+
+body{
+    background-color: rgb(255, 249, 214);
+    color: rgb(0, 0, 0);
+    font-family: Helvetica;
+    width: 800px;
+    margin: 50px;
+}
+h1, h2{
+    color: rgb(8, 91, 22);
+}
+table{
+    color: rgb(0, 0, 0);
+    border: solid; 
+    width:100%; 
+    border-width: 1px;  
+    text-align: left;
+}
+th{
+    border: solid;
+    border-width: 1px;
+    font-size: 22px;
+    color: rgb(8, 91, 22);
+}
+
+td{
+    border: solid;
+     border-width: 1px;
+     font-size: 20px;
+}
+
+.image {
+  position: relative;
+  width: 100%;      
+  max-width: 800px;  
+  margin: 0 auto;
+}
+.image2 {
+    height: 300px;
+    width: 250px;
+
+}
+button{
+    background-color: rgb(7, 147, 76);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+heading {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  color: white;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); 
+}
