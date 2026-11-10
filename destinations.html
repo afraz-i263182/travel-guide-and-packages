@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore scenic destinations in northern Pakistan and find inspiration for your next trip.">
+    <meta name="theme-color" content="#FFF9D6">
+    <title>Explore Destinations | Travel Postcard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="site.js" defer></script>
+</head>
+<body>
+
+<header class="site-header">
+    <a class="brand" href="index.html" aria-label="Travel Postcard home">
+        <span class="brand-mark">✦</span>
+        <span>Travel<span class="brand-accent">Postcard</span></span>
+    </a>
+    <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html" >Home</a>
+        <a href="destinations.html" class="active">Explore Destinations</a>
+        <a href="travel-guide.html" >Travel Guide &amp; Tips</a>
+        <a href="packages.html" >Packages &amp; Booking</a>
+    </nav>
+    <a class="header-button" href="packages.html#booking">Plan a Trip <span aria-hidden="true">↗</span></a>
+</header>
+
+<main>
+
+<section class="subpage-hero">
+    <div class="subpage-hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> FIND A PLACE TO FALL IN LOVE WITH</p>
+        <h1>Explore places<br><span>that stay with you.</span></h1>
+        <p>From dramatic mountain scenery to peaceful green valleys, discover some of the landscapes that make northern Pakistan special.</p>
+        <a class="button button-primary" href="#destination-list">Browse destinations <span aria-hidden="true">↓</span></a>
+    </div>
+    <div class="subpage-hero-image">
+        <img src="images/skardu.jpg" alt="Illustrative mountain lake surrounded by snow-covered peaks">
+        <span class="photo-caption">THE BEAUTY OF THE NORTH</span>
+    </div>
+</section>
+
+<section class="subpage-section" id="destination-list">
+    <div class="subpage-heading">
+        <div><span class="section-kicker">CHOOSE YOUR NEXT STOP</span><h2>Destinations to discover</h2><p>Explore a few visitor favourites and start imagining your next journey.</p></div>
+    </div>
+    <div class="filter-bar" role="group" aria-label="Filter destinations">
+        <button class="filter-button active" type="button" data-destination-filter="all" aria-pressed="true">All places</button>
+        <button class="filter-button" type="button" data-destination-filter="mountains" aria-pressed="false">Mountain escapes</button>
+        <button class="filter-button" type="button" data-destination-filter="valleys" aria-pressed="false">Green valleys</button>
+        <button class="filter-button" type="button" data-destination-filter="lakes" aria-pressed="false">Lakes &amp; scenery</button>
+    </div>
+
+    <div class="destination-tiles">
+        <article class="destination-tile" data-category="mountains valleys">
+            <div class="tile-image"><img src="images/hunza1.webp" alt="Illustrative autumn mountain village and river landscape"><span class="tile-tag">GILGIT-BALTISTAN</span></div>
+            <div class="tile-copy"><div class="tile-title-row"><h3>Hunza Valley</h3><span class="tile-symbol">↗</span></div><p>Known for mountain panoramas, traditional villages, orchards and memorable viewpoints.</p><div class="tile-bottom"><span>Culture · Mountain views</span><a href="packages.html?package=hunza-air-3-day#booking">View trip options</a></div></div>
+        </article>
+        <article class="destination-tile" data-category="mountains lakes">
+            <div class="tile-image"><img src="images/skardu.jpg" alt="Illustrative clear alpine lake beneath snow-covered mountains"><span class="tile-tag">GILGIT-BALTISTAN</span></div>
+            <div class="tile-copy"><div class="tile-title-row"><h3>Skardu</h3><span class="tile-symbol">↗</span></div><p>A scenic region of high peaks, open valleys, cold-desert landscapes and alpine lakes.</p><div class="tile-bottom"><span>Adventure · Lakes</span><a href="packages.html?package=hunza-skardu-air#booking">View trip options</a></div></div>
+        </article>
+        <article class="destination-tile" data-category="valleys mountains">
+            <div class="tile-image"><img src="images/swat.jpg" alt="Illustrative green mountain valley with pine trees and river"><span class="tile-tag">KHYBER PAKHTUNKHWA</span></div>
+            <div class="tile-copy"><div class="tile-title-row"><h3>Swat Valley</h3><span class="tile-symbol">↗</span></div><p>Green hills, riverside views and mountain scenery make Swat a refreshing escape.</p><div class="tile-bottom"><span>Nature · Relaxation</span><a href="packages.html?package=hunza-swat-karachi#booking">View trip options</a></div></div>
+        </article>
+        <article class="destination-tile" data-category="valleys lakes">
+            <div class="tile-image"><img src="images/naran.jpg" alt="Illustrative turquoise alpine lake in a mountain valley"><span class="tile-tag">KAGHAN VALLEY</span></div>
+            <div class="tile-copy"><div class="tile-title-row"><h3>Naran &amp; Kaghan</h3><span class="tile-symbol">↗</span></div><p>A popular mountain getaway with river views, green slopes and beautiful high-altitude scenery.</p><div class="tile-bottom"><span>Scenic drives · Lakes</span><a href="packages.html#booking">Ask about a trip</a></div></div>
+        </article>
+        <article class="destination-tile" data-category="mountains valleys">
+            <div class="tile-image"><img src="images/fairy-meadows.jpg" alt="Illustrative alpine meadow at the foot of a dramatic snowy mountain"><span class="tile-tag">GILGIT-BALTISTAN</span></div>
+            <div class="tile-copy"><div class="tile-title-row"><h3>Fairy Meadows</h3><span class="tile-symbol">↗</span></div><p>A nature-focused destination celebrated for open meadows and dramatic mountain scenery.</p><div class="tile-bottom"><span>Hiking · Nature</span><a href="packages.html#booking">Ask about a trip</a></div></div>
+        </article>
+        <article class="destination-tile" data-category="lakes mountains">
+            <div class="tile-image"><img src="images/skardu.jpg" alt="Illustrative reflective lake and mountain landscape"><span class="tile-tag">GILGIT-BALTISTAN</span></div>
+            <div class="tile-copy"><div class="tile-title-row"><h3>Attabad Lake</h3><span class="tile-symbol">↗</span></div><p>A striking blue lake framed by steep mountains, ideal for a peaceful scenic stop.</p><div class="tile-bottom"><span>Water views · Photography</span><a href="packages.html?package=hunza-air-3-day#booking">View trip options</a></div></div>
+        </article>
+    </div>
+    <p class="filter-empty" hidden>No destinations match this filter. Choose another category.</p>
+    <p class="visual-disclaimer">The scenic images on this student project are AI-generated illustrations for visual presentation; they are not documentary photographs of the exact locations.</p>
+</section>
+
+<section class="slim-cta"><div><span class="section-kicker">FOUND A PLACE YOU LOVE?</span><h2>Turn your inspiration into a trip.</h2></div><a class="button button-primary" href="packages.html">Explore packages <span aria-hidden="true">→</span></a></section>
+
+</main>
+
+<footer class="site-footer">
+    <a class="brand footer-brand" href="index.html"><span class="brand-mark">✦</span><span>Travel<span class="brand-accent">Postcard</span></span></a>
+    <p>Discover Pakistan, one journey at a time.</p>
+    <div class="footer-links">
+        <a href="index.html">Home</a><a href="destinations.html">Destinations</a>
+        <a href="travel-guide.html">Travel Guide</a><a href="packages.html">Packages</a>
+    </div>
+    <small>&copy; 2026 Travel Postcard. Created for a student web design project.</small>
+</footer>
+
+</body>
+</html>
