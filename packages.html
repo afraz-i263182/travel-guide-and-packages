@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Compare tour package durations and prices and prepare a travel booking inquiry.">
+    <meta name="theme-color" content="#FFF9D6">
+    <title>Explore Packages and Booking | Travel Postcard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="site.js" defer></script>
+</head>
+<body>
+
+<header class="site-header">
+    <a class="brand" href="index.html" aria-label="Travel Postcard home">
+        <span class="brand-mark">✦</span>
+        <span>Travel<span class="brand-accent">Postcard</span></span>
+    </a>
+    <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html" >Home</a>
+        <a href="destinations.html" >Explore Destinations</a>
+        <a href="travel-guide.html" >Travel Guide &amp; Tips</a>
+        <a href="packages.html" class="active">Packages &amp; Booking</a>
+    </nav>
+    <a class="header-button" href="packages.html#booking">Plan a Trip <span aria-hidden="true">↗</span></a>
+</header>
+
+<main>
+
+<section class="subpage-hero packages-hero">
+    <div class="subpage-hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> YOUR JOURNEY, YOUR WAY</p>
+        <h1>Find a trip<br><span>that fits your plans.</span></h1>
+        <p>Compare the travel packages shown below, review their duration and price, then send a booking inquiry for the trip you are interested in.</p>
+        <a class="button button-primary" href="#package-list">Compare packages <span aria-hidden="true">↓</span></a>
+    </div>
+    <div class="subpage-hero-image">
+        <img src="images/swat.jpg" alt="Illustrative lush mountain valley and flowing river">
+        <span class="photo-caption">MAKE YOUR NEXT JOURNEY COUNT</span>
+    </div>
+</section>
+
+<section class="subpage-section" id="package-list">
+    <div class="subpage-heading"><div><span class="section-kicker">TRIPS TO GET YOU STARTED</span><h2>Explore our packages</h2><p>Choose a trip length to narrow down the options. All prices are shown in Pakistani rupees.</p></div></div>
+    <div class="filter-bar" role="group" aria-label="Filter packages by duration">
+        <button class="filter-button active" type="button" data-package-filter="all" aria-pressed="true">All packages</button>
+        <button class="filter-button" type="button" data-package-filter="short" aria-pressed="false">3–5 days</button>
+        <button class="filter-button" type="button" data-package-filter="long" aria-pressed="false">6+ days</button>
+    </div>
+    <div class="package-grid">
+        <article class="package-card" data-duration="short">
+            <div class="package-image"><img src="images/hunza1.webp" alt="Illustrative autumn mountain valley"><span class="package-badge">3 DAYS</span></div>
+            <div class="package-content"><span class="package-origin">BY AIR</span><h3>3 Days Trip to Hunza Pakistan By Air Package</h3><div class="package-info"><span>◷ 3 Days / 2 Nights</span><span>✈ By air</span></div><div class="package-price"><span>Package price</span><strong>PKR 85,000</strong></div><a class="button button-primary package-button" href="#booking" data-select-package="hunza-air-3-day">Inquire about this trip <span>→</span></a></div>
+        </article>
+        <article class="package-card" data-duration="long">
+            <div class="package-image"><img src="images/skardu.jpg" alt="Illustrative alpine lake and high mountains"><span class="package-badge">7 DAYS</span></div>
+            <div class="package-content"><span class="package-origin">FROM ISLAMABAD · BY AIR</span><h3>Hunza Skardu Pakistan By Air Tour from Islamabad</h3><div class="package-info"><span>◷ 7 Days / 6 Nights</span><span>✈ By air</span></div><div class="package-price"><span>Package price</span><strong>PKR 91,000</strong></div><a class="button button-primary package-button" href="#booking" data-select-package="hunza-skardu-air">Inquire about this trip <span>→</span></a></div>
+        </article>
+        <article class="package-card" data-duration="long">
+            <div class="package-image"><img src="images/naran.jpg" alt="Illustrative mountain lake below snowy peaks"><span class="package-badge">9 DAYS</span></div>
+            <div class="package-content"><span class="package-origin">HUNZA &amp; SKARDU</span><h3>9 Days Hunza Skardu Pakistan Vacation Package</h3><div class="package-info"><span>◷ 9 Days / 8 Nights</span><span>Multi-stop tour</span></div><div class="package-price"><span>Package price</span><strong>PKR 55,000</strong></div><a class="button button-primary package-button" href="#booking" data-select-package="hunza-skardu-9-day">Inquire about this trip <span>→</span></a></div>
+        </article>
+        <article class="package-card" data-duration="long">
+            <div class="package-image"><img src="images/swat.jpg" alt="Illustrative green valley and mountain river"><span class="package-badge">8 DAYS</span></div>
+            <div class="package-content"><span class="package-origin">FROM KARACHI</span><h3>8 Days Hunza Swat Tour Package from Karachi</h3><div class="package-info"><span>◷ 8 Days / 7 Nights</span><span>Multi-stop tour</span></div><div class="package-price"><span>Package price</span><strong>PKR 110,000</strong></div><a class="button button-primary package-button" href="#booking" data-select-package="hunza-swat-karachi">Inquire about this trip <span>→</span></a></div>
+        </article>
+        <article class="package-card" data-duration="long">
+            <div class="package-image"><img src="images/fairy-meadows.jpg" alt="Illustrative meadow and mountain landscape"><span class="package-badge">8 DAYS</span></div>
+            <div class="package-content"><span class="package-origin">FROM LAHORE</span><h3>8 Days Hunza Skardu Holiday Package from Lahore</h3><div class="package-info"><span>◷ 8 Days / 7 Nights</span><span>Multi-stop tour</span></div><div class="package-price"><span>Package price</span><strong>PKR 83,000</strong></div><a class="button button-primary package-button" href="#booking" data-select-package="hunza-skardu-lahore">Inquire about this trip <span>→</span></a></div>
+        </article>
+    </div>
+    <p class="filter-empty" data-package-empty hidden>No packages match this duration. Choose another filter.</p>
+    <p class="pricing-note">Prices and package details are reproduced from the original student webpage. Confirm current availability, inclusions, departure dates and final prices with the travel provider before making any payment.</p>
+</section>
+
+<section class="booking-section" id="booking">
+    <div class="booking-intro"><span class="section-kicker">LET'S GET YOU GOING</span><h2>Send a booking inquiry</h2><p>Fill in your details and preferred trip. This student-project form demonstrates the inquiry flow; it does not transmit or store personal information.</p><div class="booking-assurance"><span>✓</span><p>No payment is collected on this page.<br>Your booking is not confirmed until the provider contacts you.</p></div></div>
+    <form class="booking-form" id="booking-form">
+        <div class="form-heading"><h3>Trip inquiry form</h3><span>All fields marked * are required</span></div>
+        <div class="form-two-columns">
+            <label>Full name *<input class="form-control" type="text" name="fullName" placeholder="Enter your name" required minlength="2" autocomplete="name"></label>
+            <label>Phone number *<input class="form-control" type="tel" name="phone" placeholder="e.g. 03XX XXXXXXX" required autocomplete="tel"></label>
+        </div>
+        <label>Email address *<input class="form-control" type="email" name="email" placeholder="you@example.com" required autocomplete="email"></label>
+        <div class="form-two-columns">
+            <label>Select a package *<select class="form-control" name="package" id="package-select" required><option value="">Choose a package</option><option value="hunza-air-3-day">3 Days Trip to Hunza Pakistan By Air Package — PKR 85,000</option><option value="hunza-skardu-air">Hunza Skardu Pakistan By Air Tour from Islamabad — PKR 91,000</option><option value="hunza-skardu-9-day">9 Days Hunza Skardu Pakistan Vacation Package — PKR 55,000</option><option value="hunza-swat-karachi">8 Days Hunza Swat Tour Package from Karachi — PKR 110,000</option><option value="hunza-skardu-lahore">8 Days Hunza Skardu Holiday Package from Lahore — PKR 83,000</option></select></label>
+            <label>Number of travellers *<select class="form-control" name="travellers" required><option value="">Select travellers</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6+</option></select></label>
+        </div>
+        <div class="form-two-columns">
+            <label>Preferred travel date<input class="form-control" type="date" name="travelDate" id="travel-date"></label>
+            <label>Departure city<input class="form-control" type="text" name="departureCity" placeholder="e.g. Islamabad"></label>
+        </div>
+        <label>Additional message<textarea class="form-control" name="message" rows="4" placeholder="Tell us about any questions or preferences..."></textarea></label>
+        <button class="button button-primary form-submit" type="submit">Prepare my inquiry <span aria-hidden="true">→</span></button>
+        <p class="form-privacy">Please do not enter payment details or other sensitive information.</p>
+        <div class="booking-feedback" id="booking-feedback" role="status" aria-live="polite" hidden></div>
+    </form>
+</section>
+
+</main>
+
+<footer class="site-footer">
+    <a class="brand footer-brand" href="index.html"><span class="brand-mark">✦</span><span>Travel<span class="brand-accent">Postcard</span></span></a>
+    <p>Discover Pakistan, one journey at a time.</p>
+    <div class="footer-links">
+        <a href="index.html">Home</a><a href="destinations.html">Destinations</a>
+        <a href="travel-guide.html">Travel Guide</a><a href="packages.html">Packages</a>
+    </div>
+    <small>&copy; 2026 Travel Postcard. Created for a student web design project.</small>
+</footer>
+
+</body>
+</html>
